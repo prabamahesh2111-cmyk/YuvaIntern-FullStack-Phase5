@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Task Manager</h1>
+            <p>Organize your day, one task at a time!</p>
+        </header>
+
+        <section class="task-input">
+            <input type="text" id="taskInput"
+                   placeholder="Enter your task...">
+            <button id="addButton">Add Task</button>
+        </section>
+
+        <p id="message" aria-live="polite"></p>
+
+        <section class="task-section">
+            <h2>My Tasks</h2>
+            <ul id="taskList"></ul>
+            <p id="emptyMessage">No tasks yet. Add your first task!</p>
+        </section>
+
+        <footer>
+            <p>Phase 3 Project | Developed by Praba</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
